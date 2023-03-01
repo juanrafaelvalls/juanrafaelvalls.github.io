@@ -1,0 +1,134 @@
+<!DOCTYPE html><!-- incio del código html -->
+
+<html lang="es"><!-- lenguaje de la página web -->
+
+<head><!-- inicio del encabezado de la página web -->
+
+    <!-- título que aparece en la solapa de la página web (máximo 60-70 caracteres) -->
+    <title id="titulo"></title>
+ 
+    <!-- juego de caracteres -->
+    <meta charset="UTF-8">
+
+    <!-- instrucción para especificar el modo de compatibilidad a Internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- configuración de la ventana gráfica -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- descripción de la página para buscadores (máximo 155 caracteres) -->
+    <meta name="description" content="Juan Rafael Valls - Curriculum Vitae" />
+
+    <!-- ícono de página - ícono de favoritos (favicon) -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- tipografía externa (extraida de https://fonts.google.com/) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap">
+
+    <!-- iconografía externa (extraida de https://fontawesome.com/) -->
+    <link rel="stylesheet" href="fontawesome.css">
+    <link rel="stylesheet" href="brands.css">
+    <link rel="stylesheet" href="solid.css">
+
+    <!-- hoja de estilos -->
+    <link rel="stylesheet" href="index.css" type="text/css"/>
+
+</head><!-- fin del encabezado de la página web -->
+
+<body><!-- inicio del cuerpo de la página web -->
+
+    <!-- Encabezado -->
+    <div class="encabezado">
+        <h1>Currículum Vitae</h1>
+        <div class="foto">
+            <img
+                src="photo.jpg"
+                alt="foto de rostro del candidato"
+            />
+        </div>
+        <h1 id="nombre_completo"></h1>
+        <h2 id="profesion"></h2>
+    </div>
+
+    <!-- Línea de menú -->
+    <div class="linea">
+
+        <!-- Primera columna -->
+        <!--  -->
+        <div class="col-2 col-s-4 menu">
+            <ul>
+                <li id="boton1"><i class="fa-regular fa-user-graduate"></i></li>
+            </ul>
+        </div>
+
+        <!-- Segunda columna -->
+        <!--  -->
+        <div class="col-2 col-s-4 menu">
+            <ul>
+                <li id="boton2"><i class="fa-solid fa-file"></i></li>
+            </ul>
+        </div>
+
+        <!-- Tercera columna -->
+        <!--  -->
+        <div class="col-2 col-s-4 menu">
+            <ul>
+                <li id="boton3"><i class="fa-solid fa-file-circle-plus"></i></li>
+            </ul>
+        </div>
+
+        <!-- Cuarta columna -->
+        <!--  -->
+        <div class="col-2 col-s-4 menu">
+            <ul>
+                <li id="boton4"><i class="fa-solid fa-briefcase"></i></li>
+            </ul>
+        </div>
+
+        <!-- Quinta columna -->
+        <!--  -->
+        <div class="col-2 col-s-4 menu">
+            <ul>
+                <li id="boton5"><i class="fa-regular fa-envelope"></i></li>
+            </ul>
+        </div>
+
+        <!-- Sexta columna -->
+        <!--  -->
+        <div class="col-2 col-s-4 menu">
+            <ul>
+                <li id="boton6"><i class="fa-regular fa-phone"></i> <i class="fa-regular fa-mobile-screen-button"></i> <i class="fa-regular fa-at"></i></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- Línea para mostrar información -->
+    <div class="linea">
+
+        <!-- Primera columna -->
+        <!--  -->
+        <div class="col-6 col-s-12">
+            <p id="Info1A"></p>
+            <p id="Info1B"></p>
+            <p id="Info1C"></p>
+        </div>
+
+        <!-- Segunda columna -->
+        <!--  -->
+        <div class="col-6 col-s-12">
+            <p id="Info2A"></p>
+            <p id="Info2B"></p>
+            <p id="Info2C"></p>
+        </div>
+
+    </div>
+
+    <!-- ruta al DOM (archivo externo) -->
+    <script src="index.js"></script>
+
+</body><!-- fin del cuerpo de la página web -->
+
+</html><!-- fin del código html -->
