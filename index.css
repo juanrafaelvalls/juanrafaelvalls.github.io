@@ -10,7 +10,7 @@ html    /* estilos que se aplican a todo el documento */
     font-family: 'Roboto', sans-serif; /*tipografía*/
     }
 
-.encabezado /* definición del formato de la clase header */
+.encabezado /* definición del formato de la clase encabezado */
     {
     background-color: #0099cc;
     color: #ffffff;
@@ -32,7 +32,7 @@ html    /* estilos que se aplican a todo el documento */
     border: 1px solid rgba(0,0,0,.25)
     }
 
-.linea::after   /* definición del formato de la una línea */
+.linea::after   /* definición del formato de una línea */
                 /* se emplea el pseudo-elemento after */
                 /* clases cuyo nombre sea "linea" + "" */
     {
@@ -50,7 +50,7 @@ html    /* estilos que se aplican a todo el documento */
 
 .menu li /* definición del formato de los elementos li dentro de la clase menu */
     {
-    padding: 8px;
+    padding: 10px;
     margin-bottom: 0px;
     background-color: #33b5e5;
     text-align: center;
@@ -64,7 +64,16 @@ html    /* estilos que se aplican a todo el documento */
     }
 
 
-.pie /* definición del formato de la clase footer */
+.banda /* definición del formato de la clase banda */
+    {
+    background-color: #0099cc;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    padding: 1px;
+    }
+
+.pie /* definición del formato de la clase pie */
     {
     background-color: #0099cc;
     color: #ffffff;
@@ -78,7 +87,7 @@ html    /* estilos que se aplican a todo el documento */
                 /* clases cuyo nombre contenga "col-"" */
     {
     float: left;
-    padding: 15px;
+    padding: 5px;
     }
 
 /* definición de anchos de columnas para diferentes dispositivos */
